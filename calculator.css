@@ -1,0 +1,165 @@
+
+
+body{
+
+
+margin-left:100px;
+margin-right:100px;
+background-color: pink ;
+}
+header{
+background-color: #7fb1b3;
+height:8%;
+text-align:center;
+padding:10px;
+color:white;
+font-family:calibri;
+}
+
+h1 {padding:1%}
+
+.maincontent{
+background-color:white;
+padding:20px;
+
+}
+
+footer{
+
+background-color: #7fb1b3;
+height:5%;
+text-align:center;
+padding:10px;
+color:white;
+font-family:calibri;
+}
+
+
+#calculator
+{
+	background-color: lightgrey;
+	width:32%;
+	height:36em ;
+	color:white;
+	margin:auto;
+	box-shadow: 4px 4px 3px black;
+	border:2px solid grey;
+	border-radius:3% ;
+
+
+}
+
+
+
+#upperouter
+{
+
+	background-color: #474719;
+	width:100%;
+	height:9em;
+
+	text-align:center;
+	border-top-left-radius:2em;
+	border-top-right-radius:2em;
+
+	font-size:.8em ;
+
+}
+
+
+#upper
+{
+
+	background-color: black;
+	width:100%;
+	height:9.5em;
+
+	text-align:center;
+	padding-top:2%;
+
+	font-size:.8em ;
+	border-top-right-radius:1em ;
+	border-top-left-radius:1em ;
+
+	border-bottom-right-radius:15% ;
+	border-bottom-left-radius:15% ;
+
+
+}
+
+
+#upperdisplay
+{
+	background-color: lightgrey;
+	width:83%;
+	color: black;
+	margin-top:1%;
+	margin-left:5%;
+	border-radius:.2em ;
+	text-align:center;
+	font-size:2.2em;
+	padding:.5em;
+
+
+}
+
+#innerdisplay
+{
+
+	width:80%;
+	height: 2.1em;
+	border-radius:2%;
+	background-color: cornsilk;
+	text-align:right;
+	padding:.5em;
+
+
+}
+
+
+#lower
+
+{
+	width:100%;
+	padding:2%;
+	margin-top:3%;
+	margin-left:2%;
+
+}
+
+.lowertext
+{
+
+	position:relative;
+	width:4em;
+	height:2em;
+	margin:.4em;
+	color:white;
+	background-color:darkslategrey;
+	font-size:1em;
+	border-radius:.3em;
+
+}
+
+.middletext
+{
+
+	position:relative;
+	width:4em;
+	height:2em;
+	margin:.4em;
+	color:white;
+	background-color: dimgrey;
+	font-size:1em;
+	border-radius:.3em;
+
+}
+
+#darkred {
+	background-color:darkred;
+	height:3em;
+
+}
+
+
+#red{background-color: orangered;}

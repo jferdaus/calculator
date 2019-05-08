@@ -1,0 +1,180 @@
+
+<!DOCTYPE html>
+<head>
+<title>Scientific Calculator</title>
+<link rel="stylesheet" type="text/css" href="calculator.css" />
+
+<script src="calculator.js"></script>
+
+
+
+
+</head>
+
+
+
+<body>
+
+<header>
+  <h1>Scientific Calculator</h1>
+</header>
+
+ 
+<div class="maincontent">
+
+
+    <div id="calculator">
+
+        <div id="upperouter">
+        <div id="upper">CS - 120V
+
+            <div id="upperdisplay">
+                <form name="myform" >
+
+                   <input type="text" readonly id="innerdisplay" name="display"  />
+
+                </form>
+
+            </div>
+
+
+        </div>  </div>
+        <div id="lower">
+
+            <input type="button" name="sin" value="SIN" class="middletext" onclick = "myform.display.value = Math.sin(myform.display.value)" />
+
+
+            <input type="button" name="cos" value="COS" class="middletext" onclick = "myform.display.value = Math.cos(myform.display.value)" />
+
+            <input type="button" name="tan" value="TAN" class="middletext" onclick = "myform.display.value = Math.tan(myform.display.value)" />
+
+            <input type="button" name="clr" value="CLR" class="middletext" id="darkred" onclick = "myform.display.value = '' " />
+
+
+
+
+
+
+            <br/>
+            <input type="button" name="log" value="LOG" class="middletext" onclick = "myform.display.value = Math.log(myform.display.value)" />
+
+            <input type="button" name="sqr" value="SQR" class="middletext"onclick = "myform.display.value = Math.pow(myform.display.value, 2)" />
+            <input type="button" name="abs" value="ABS" class="middletext" onclick = "myform.display.value = Math.abs(myform.display.value)" />
+
+            <input type="button" name="in" value="In" class="middletext" onclick = "myform.display.value = Math.E" />
+
+
+
+            <br/>
+
+
+            <input type="button" name="root" value="&radic;" class="middletext" onclick = "myform.display.value = Math.sqrt(myform.display.value) "  />
+
+            <input type="button" name="(" value="(" class="middletext" onclick = "myform.display.value += '(' " />
+
+            <input type="button" name=")" value=")" class="middletext" onclick = "myform.display.value += ')' " />
+
+            <input type="button" name="pow" value="&and;" class="middletext" onclick = "myform.display.value = Math.pow(myform.display.value, myform.display.value)" />
+
+
+            <br/>
+
+            <input type="button" name="floor" value="floor" class="middletext" onclick = "myform.display.value = Math.floor(myform.display.value)" />
+
+            <input type="button" name="ceil" value="ceil" class="middletext" onclick = "myform.display.value = Math.ceil(myform.display.value)" />
+
+
+            <input type="button" name="factorial" value="!" class="middletext" onclick = "myform.display.value = fact(myform.display.value)"/>
+
+            <input type="button" name="round" value="round" class="middletext" onclick = "myform.display.value = Math.round(myform.display.value)"  />
+
+
+            <br/>
+
+
+            <input type="button" name="seven" value="7" class="lowertext" onclick = "myform.display.value += '7' "/>
+
+            <input type="button" name="eight" value="8" class="lowertext" onclick = "myform.display.value += '8' " />
+
+            <input type="button" name="nine" value="9" class="lowertext" onclick = "myform.display.value += '9' " />
+
+            <input type="button" name="del" value="DEL" class="lowertext" id="red" onclick = " myform.display.value = myform.display.value.substring(0, (myform.display.value.length-1));"/>
+
+
+            <br/>
+
+
+
+
+            <input type="button" name="four" value="4" class="lowertext" onclick = "myform.display.value += '4' " />
+
+            <input type="button" name="five" value="5" class="lowertext" onclick = "myform.display.value += '5' " />
+
+            <input type="button" name="six" value="6" class="lowertext" onclick = "myform.display.value += '6' " />
+
+            <input type="button" name="mul" value="x" class="lowertext" onclick = "myform.display.value += '*' " />
+
+
+            <br/>
+
+
+            <input type="button" name="one" value="1" class="lowertext" onclick = "myform.display.value += '1' " />
+
+            <input type="button" name="two" value="2" class="lowertext" onclick = "myform.display.value += '2' " />
+
+            <input type="button" name="three" value="3" class="lowertext"  onclick = "myform.display.value += '3' " />
+
+            <input type="button" name="add" value="+" class="lowertext" onclick = "myform.display.value += '+' " />
+
+
+<br/>
+
+
+            <input type="button" name="pi" value="&pi; " class="lowertext" onclick = "myform.display.value +=Math.PI "/>
+            <input type="button" name="exp" value="EXP"  class="lowertext" onclick = "myform.display.value +=Math.exp(myform.display.value)"/>
+
+
+            <input type="button" name="div" value="/" class="lowertext" onclick = "myform.display.value += '/' " />
+
+            <input type="button" name="sub" value="-" class="lowertext" onclick = "myform.display.value += '-' " />
+
+
+            <br/>
+
+            <input type="button" name="zero" value="0" class="lowertext" onclick = "myform.display.value += '0' " />
+
+            <input type="button" name="point" value="." class="lowertext" onclick = "myform.display.value += '.' " />
+
+
+            <input type="button" name="mod" value="%" class="lowertext" onclick = "myform.display.value += '%' " />
+
+            <input type="button" name="eql" value="="  class="lowertext" onclick = "myform.display.value = eval(myform.display.value) " />
+
+
+        </div>
+
+
+
+
+    </div>
+
+
+</div>
+
+
+
+
+
+
+
+
+<footer>
+<p><b>&copy 2018 Jannatul Ferdaus. All Rights Reserved.</b></p>
+</footer>
+
+
+
+</body>
+
+
+</html>                          
